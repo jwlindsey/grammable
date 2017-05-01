@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Simple Form for ease of forms use
+gem 'simple_form'
 # Bootstrap 4 capabilities
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
