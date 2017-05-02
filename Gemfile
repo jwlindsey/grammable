@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Enable authentication capabilities
+gem 'devise'
 # Simple Form for ease of forms use
 gem 'simple_form'
 # Bootstrap 4 capabilities
